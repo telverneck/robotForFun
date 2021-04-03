@@ -11,6 +11,7 @@ Test Template   Abrir tela
 
 ***Test Cases
 Test01: Open Login page
+    [Tags]  smoke
     Login
 
 Test02: Open Dropdown page
