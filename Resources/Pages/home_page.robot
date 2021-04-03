@@ -5,10 +5,10 @@ ${btn_login}    css:.btn-login
 ***Keywords
 
 Abrir tela  
-    [Arguments]     ${text}
+    [Arguments]     ${text}     ${url}
     Given that I open the "Training Wheels Protocol"
     When I open "${text}" 
-    Then I must see the "${text}" text
+    Then I must see the "${url}" URL
 
 
 Given that I open the "${text}"
@@ -21,6 +21,6 @@ When I open "${LINK}"
 Then I must see the login page
     Wait Until Element Is Visible       ${btn_login} 
 
-Then I must see the "${Text}" text
-    Page Should Contain      ${Text}   
-    Sleep  3
+Then I must see the "${url}" URL
+    Location Should Contain      ${url}   
+    
