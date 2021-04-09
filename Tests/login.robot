@@ -29,8 +29,3 @@ Empty fields
     [Tags]  invalid   
     ${EMPTY}        ${EMPTY}        O usuário informado não está cadastrado!
 
-
-    
-
-
-
