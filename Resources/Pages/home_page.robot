@@ -24,3 +24,4 @@ Then I must see the login page
 Then I must see the "${url}" URL
     Location Should Contain      ${url}   
     
+Then I should do something
