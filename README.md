@@ -1,8 +1,12 @@
-"# robotForFun" 
+# robotForFun 
  
 # Author: Telmo Rodrigues Correa
 
-# This project is for practice robot framework using Training Wheel website
+# This project is for practice robot framework using Training Wheel website with friend collaboration:
+## Juliane Pascoal
+## Telmara Silva de Sá
+## Karen Botelho
+## Tiago Dias
 
 ## Installation:
 - Requires Robot

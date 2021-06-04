@@ -1,5 +1,6 @@
 ***Settings
-Documentation       As a customer, I want to be able to login the page using valid information. Also I want to check all validations with wrong info
+Documentation       As a customer, I want to be able to login using valid information. Also I want to check all exceptions errors when 
+...                 trying to login with wrong info    
 Resource    ../Resources/base.robot
 
 Suite Setup          Start Session
@@ -28,9 +29,4 @@ Empty email
 Empty fields  
     [Tags]  invalid   
     ${EMPTY}        ${EMPTY}        O usuário informado não está cadastrado!
-
-
-    
-
-
 
