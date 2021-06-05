@@ -24,10 +24,3 @@ Test07: Open Select2 - Multiplas opções page           Select2 - Multiplas op�
 Test08: Open Controle Dinâmico page                    Controle Dinâmico   dynamic
 Test09: Open Upload de arquivos page                   Upload de arquivos      upload
 Test10: Open Login com campo randômico page            Login com campo randômico   login2
-
-
-Test044: Drag and drop
-    [Template]  Abrir tela      Drag and Drop   drag
-    Given that I am on Drag and drop page
-    When I perform a drag to left
-    Then I must check if the icon is on the left panel
